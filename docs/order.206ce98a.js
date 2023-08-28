@@ -18,4 +18,4 @@ u.innerText=r.payMethod,r.items)){let r=document.createElement("li");r.classList
                     </div>
                 </div>
             `,d.appendChild(r)}// Вставляем totalGoodsSum, deliveryCost и totalAmount
-let t=document.querySelector(".goods-sum"),o=document.querySelector(".delivery-cost"),c=document.querySelector(".sum-up-amount");t.innerText=`${r.totalGoodsSum} ${r.items[0].currency}`,o.innerText=`${r.deliveryCost} ${r.items[0].currency}`,c.innerText=`${r.totalAmount} ${r.items[0].currency}`}}()}();
+let t=document.querySelector(".goods-sum"),o=document.querySelector(".delivery-cost"),c=document.querySelector(".sum-up-amount"),i=r.totalGoodsSum,m=r.deliveryCost,p=r.totalAmount;t.innerText=`${r.items[0].currency} ${i.toFixed(2)}`,o.innerText=`${r.items[0].currency} ${m.toFixed(2)}`,c.innerText=`${r.items[0].currency} ${p.toFixed(2)}`}}()}();

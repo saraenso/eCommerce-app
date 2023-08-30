@@ -1,0 +1,1 @@
+window.addEventListener("load",function(){let n=document.getElementById("loadingIndicator");n&&(n.style.display="none")});
